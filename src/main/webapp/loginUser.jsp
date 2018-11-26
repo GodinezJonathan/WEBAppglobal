@@ -9,10 +9,19 @@ $( "#email" ).keypress(function(e) {
        if(e.which == 13) {
        	validateAndSubmit();
        }else{
-       	$("#loginError").text("");
+       	$("#loginMessage").text("");
        }
    });
 });
+$( document ).ready(function() {
+	$( "#email" ).keypress(function(e) {
+	       if(e.which == 13) {
+	       	validateAndSubmit();
+	       }else{
+	       	$("#loginError").text("");
+	       }
+	   });
+	});
 
 function validateAndSubmit(){
 
@@ -37,7 +46,7 @@ $("#email").focus();
 <div class="flex-content"
 style="margin-top: 180px; height: 300px; width: 100%; z-index: 9999 !important">
 <figure class="flex-item log-photo"
-style="background-color: #e2dfde; background-image: url(images/userAvatar.png); background-size: contain; background-repeat: no-repeat;">
+style="background-color: #fff; background-image: url(images/userAvatar.png); background-size: contain; background-repeat: no-repeat;">
 </figure>
 <div class="flex-item" style="height: 50px; text-align: center;">
 <input class="form_inputs login-input" type="email" name="email" id="email" placeholder="example@e-mail.com">

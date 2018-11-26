@@ -115,6 +115,52 @@ margin-top: 20px;
 }
 .page_contend_max_section{
 	width: 960px;
+	height: 650px;
 	margin: auto;
     margin-top: 110px;
+    margin-bottom: 80px;
+        
+}
+[class*="myProfile-"] {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	color:#607D8B;
+}
+.myProfile-section{
+	display:flex;
+	margin: auto;
+	padding: 50px;
+}
+.myPforile-container{
+	margin: auto;
+	background-color: #e6e6e6;
+	width: 550px;
+	height: 550px;
+	border-radius: 5px;
+	margin-top: 110px;
+	padding: 30px;	
+}
+.myPforile-avatarContainer{
+	display: block;
+	background-color: #e6e6e6;
+	background-size: contain;
+	box-sizing: border-box;
+	border:  #fff 5px solid;
+	border-radius: 50%;
+	height: 170px;
+	width: 170px;
+	margin-top: 25px;
+	margin: auto;
+}
+.myProfile-form{
+	padding: 50px;
+}
+.myPforile-profileData{
+	text-align: center;
+	padding: 10px;
+	border:  #fff 2px solid;
+	border-radius: 7px;
 }
