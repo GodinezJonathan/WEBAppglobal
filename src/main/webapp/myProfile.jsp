@@ -12,7 +12,7 @@
 					<div class= "myProfile-profileData">
 					
 							<p style="font-size: 30px;"><c:out value = "${userSessionInfo.credential.name}"/></p>
-							<hr id= "linea";/>
+							<hr id= "linea"/>
 							<p><c:out value = "${userSessionInfo.credential.email}"/></p>
 							
 					</div>
