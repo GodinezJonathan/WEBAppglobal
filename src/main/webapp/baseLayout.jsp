@@ -76,8 +76,8 @@
 <!-- <body class="body"> -->
 	<body data-spy="scroll" data-target=".navbar" data-offset="50" id="body" style="background-color:#e6e6e6;"
 		class="index-light">
-			<div class="page_contend_max_section">
-				<div class="loader">
+		
+			<div class="loader">
 					<div class="loader-inner">
 						<div class="spinner">
 							<div class="dot1"></div>
@@ -91,6 +91,8 @@
 						<tiles:insert attribute="header"/>	
 					</header>
 				</section>
+				
+			<div class="page_contend_max_section">
 				
 				<section>
 					<contend>

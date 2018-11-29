@@ -44,7 +44,7 @@ $("#email").focus();
 <section class="page_content_main_slider clearfix" id="home">
 <form  action="/globalapp/showLogin.do" id="loginForm" method="post">
 <div class="flex-content"
-style="margin-top: 180px; height: 300px; width: 100%; z-index: 9999 !important">
+style="margin-top: 80px; height: 300px; width: 100%; z-index: 9999 !important">
 <figure class="flex-item log-photo"
 style="background-color: #fff; background-image: url(images/userAvatar.png); background-size: contain; background-repeat: no-repeat;">
 </figure>

@@ -76,8 +76,6 @@
 <!-- <body class="body"> -->
 	<body data-spy="scroll" data-target=".navbar" data-offset="50" id="body" style="background-color:#e6e6e6;"
 		class="index-light">
-	
-		<div class="page_contend_max_section">
 			<div class="loader">
 				<div class="loader-inner">
 					<div class="spinner">
@@ -86,12 +84,14 @@
 					</div>
 				</div>
 			</div>
+			<header>
+				<tiles:insert attribute="header"/>
+			</header>
+		<div class="page_contend_max_section">
+			
 	
 			<section class="page_content_parent_section">
-				<header>
-					<tiles:insert attribute="header"/>
 					<tiles:insert attribute="loginForm"/>
-				</header>
 			</section>
 		</div>
 	

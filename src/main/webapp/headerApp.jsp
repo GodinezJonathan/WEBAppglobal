@@ -52,6 +52,7 @@
                     <img  style="background-color: #fff;"  src="<c:choose><c:when test="${not empty userSessionInfo.credential.avatar}">/globalapp/getAvatar.do</c:when><c:otherwise>images/userAvatar.png</c:otherwise></c:choose>" class="dropdown-image"></a>
                         <div class="dropdown-menu dropdown-menu-right" role="menu">
                         <a class="dropdown-item" role="presentation" href="/globalapp/myProfile.do" value="01">Mi perfil</a>
+                        <a class="dropdown-item" role="presentation" href="/globalapp/showHome.do" value="01">Inicio</a>
                         <a class="dropdown-item" role="presentation" href="/globalapp/logout.do" value="01">Salir</a>
                         
                        <!-- <a class="dropdown-item" role="presentation" href="#" >Payments </a>
